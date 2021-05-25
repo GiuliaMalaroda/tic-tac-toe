@@ -1,7 +1,7 @@
 @import './variables';
 
 // FONTS
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
 
 // RESET
 * {
@@ -17,6 +17,8 @@
 button {
     border: 0;
     background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
 }
 
 // GENERAL
@@ -28,6 +30,7 @@ body {
     background: $lightBlue;
     background: linear-gradient(to right, $lightBlue, $lightOrange);
     height: 100vh;
+    font-family: "Quicksand", sans-serif;
 }
 
 .wrapper {

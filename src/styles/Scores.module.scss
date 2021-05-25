@@ -1,0 +1,28 @@
+@import './variables';
+
+.Scores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: $board-w;
+    margin-bottom: 40px;
+    text-align: center;
+    color: $black;
+}
+
+.Player {
+    width: $square-w;
+
+    &_X { color: $blue; }
+
+    &_O { color: $orange; }
+}
+
+.Score {
+    width: $square-w;
+    text-align: center;
+    background-color: $white;
+    border-radius: 10px;
+    font-weight: 600;
+}

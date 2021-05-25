@@ -1,5 +1,5 @@
 {
-  "name": "extended-app-name",
+  "name": "tic-tac-toe",
   "version": "0.0.1",
   "private": true,
   "dependencies": {

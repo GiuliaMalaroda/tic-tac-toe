@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import css from '../styles/Square.module.scss';
 
-const Square = ({id, player, changePlayer}) => {
+const Square = ({id, player, onUpdate, hasWinner, isRestarted}) => {
     const [disabled,setDisabled] = useState(false);
     const [symbol,setSymbol] = useState("");
 
     const onClickHandler = event => {
         setDisabled(true);
         setSymbol(player);
-        changePlayer();
+        onUpdate();
     }
 
     const renderSymbol = symbol => {
@@ -22,7 +22,7 @@ const Square = ({id, player, changePlayer}) => {
             id={id}
             className={css.Square}
             onClick={onClickHandler} 
-            disabled={disabled} >
+            disabled={hasWinner ? true : disabled} >
             <span className={`${css.Symbol} ${renderSymbol(symbol)}`}>{symbol}</span>
         </button>
     )
