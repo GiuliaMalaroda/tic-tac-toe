@@ -1,0 +1,38 @@
+@import './variables';
+
+.Square {
+    position: relative;
+    width: $square-w;
+    height: $square-h;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+    }
+}
+
+.Symbol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    color: transparent;
+    overflow: hidden;
+    background-size: contain;
+    background-position: center center;
+
+    &_X {
+        background-image: url('../images/icon-x.svg');
+    }
+
+    &_O {
+        background-image: url('../images/icon-o.svg');
+    }
+}
