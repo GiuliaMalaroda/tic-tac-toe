@@ -1,0 +1,16 @@
+@import './variables';
+
+.Board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: $board-w;
+    height: $board-h;
+    background-color: rgba($white,0.5);
+    box-shadow: 0 8px 32px 0 rgba($white,0.37), inset 0 0 0 1px rgba($white,0.18);
+    backdrop-filter: blur(4px); 
+    border-radius: 10px;
+    background-image: url('../images/bg-board.svg');
+    background-size: contain;
+    background-position: center center;
+}

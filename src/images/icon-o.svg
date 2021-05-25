@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-176.000000, 0.000000)" fill="#FF9F1C">
+            <path d="M256,0 C300.18278,0 336,35.81722 336,80 C336,124.18278 300.18278,160 256,160 C211.81722,160 176,124.18278 176,80 C176,35.81722 211.81722,0 256,0 Z M256.519481,21.8181818 C224.673451,21.8181818 198.857143,47.6344898 198.857143,79.4805195 C198.857143,111.326549 224.673451,137.142857 256.519481,137.142857 C288.36551,137.142857 314.181818,111.326549 314.181818,79.4805195 C314.181818,47.6344898 288.36551,21.8181818 256.519481,21.8181818 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+@import './variables';
+
+.Status {
+    width: $board-w;
+    margin-top: 40px;
+    text-align: center;
+    color: $black;
+    font-weight: 600;
+}
